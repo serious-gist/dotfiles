@@ -34,3 +34,29 @@ pipx install ranger-fm
 pipx install ruff
 pipx install thefuck
 pipx install tox
+
+echo "Install Docker"
+
+sudo snap install code --classic
+
+echo "Install Pycharm"
+sudo snap install pycharm-professional
+
+echo "Install Discord"
+sudo snap install discord
+
+
+echo "Install VLC Player"
+sudo snap install vlc
+
+echo "Install Bitwarden"
+sudo snap install bitwarden
+
+echo "Install Spotify"
+sudo snap install spotify
+
+
+echo "Install Google Chrome"
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+rm -rf google-chrome-stable_current_amd64.deb
